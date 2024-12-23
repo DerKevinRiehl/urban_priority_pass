@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-12 08:27:32 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    
+	<!-- SIMULATION SETTINGS -->
+    <time>
+        <begin value="0"/>
+        <end value="30000"/> <!-- 3h of simulation --> 
+    </time>
+    
+	<!-- PROCESSING OPTIONS -->
+    <processing>
+        <step-length value="1.0"/> <!-- 1 step per second -->
+        <time-to-teleport value="-1"/> <!-- Disable Teleportation -->
+		<ignore-junction-blocker value="60"/> <!-- to avoid gridlock -->
+		<summary-output.period value="300"/>
+	
+		<device.rerouting.adaptation-interval value="90"/> <!-- dynamic rerouting -->
+		<device.rerouting.adaptation-weight value="0.5"/>
+    </processing>
+	
+    <!-- INPUT FILES -->
+    <input>
+        <net-file value="Network.net.xml"/>
+        <route-files value="Demand.xml"/>
+    </input>
+	
+    <!-- OUTPUT FILES / LOGGING -->
+
+    <!-- REPORT OPTIONS -->
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+	
+</configuration>
