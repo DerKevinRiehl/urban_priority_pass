@@ -5,9 +5,9 @@
 
 **Organization:**   ETH Zürich, Switzerland
 
-**Date:**           2024, June 30th
+**Date:**           2025, August 12th
 
-**Submitted to:**   Expert Systems With Applications
+**Submitted to:**   Expert Systems With Applications (In Review)
 
 ----------
 
@@ -24,9 +24,9 @@ The repository is based on [SUMO (provided by DLR)](https://eclipse.dev/sumo/).
         <td><img src="figures/B_Manhattan9x9_Track_UPP.gif"  width="250"/></td>
     </tr>
     <tr>
-        <td><center>No Control</center></td>
-        <td><center>Fixed-Cycle Control</center></td>
-        <td><center>Priority Pass Control</center></td>
+        <td><center>No Control [200s]</center></td>
+        <td><center>Fixed-Cycle Control [166s]</center></td>
+        <td><center>Priority Pass Control [114s]</center></td>
     </tr>
 </table>
 
@@ -98,7 +98,7 @@ The folder contains following information:
 - Some of the figures used in the paper and this repository can be found in folder `figures/`.
 
 
-## Installation Instructions
+## Installation \& Reproducibility Instructions
 
 ```
 pip install -r requirements.txt
