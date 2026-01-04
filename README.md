@@ -114,6 +114,6 @@ pip install -r requirements.txt
 @article{riehl2025,
   title={Urban Priority Pass: Fair Signalized Intersection Management – Accounting for Passenger Needs through Prioritization},
   author={Riehl, Kevin and Kouvelas, Anastasios and Makridis, Michail A.},
-  journal/conference={Expert Systems With Applications (In Review)},
-  year={2025}
+  journal={Communications in Transportation Research (in submission)},
+  year={2026}
 } ```
